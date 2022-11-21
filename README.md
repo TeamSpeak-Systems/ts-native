@@ -1,16 +1,13 @@
 # TS-native
 
-This repository contains a teamspeak 5 server build for Linux which does not require docker or docker compose to run.
+This repository contains a teamspeak 5 server build for Linux amd64 which does not require docker or docker compose to run.
 
 * https://github.com/TeamSpeak-Systems/ts-native.git
 
-Note: This URL requires a valid login, or it won't show anything. Be sure you logged into github.com and also that your user was invited to this repository.
+**Note: The concept of ts-native is to be used in combination with ts-services. The administration in using ts-native is far more complicated as rollouts of ts-native updates have to be coordinated with ts-services updates.**
 
-# TS-services
+We stongly advice to only use ts-services and then all services are administrated from docker-compose.yaml and your configuration overlay.
 
-If you want to deploy the ts services using docker / docker compose you need to see these two repositories:
+# ts-services
 
-* https://github.com/TeamSpeak-Systems/ts-services.git (coming soon)
-* https://hub.docker.com/teamspeak-systems
-
-Note: This URL requires a valid login, or it won't show anything. Be sure you logged into github.com and also that your user was invited to this repository.
+* https://github.com/TeamSpeak-Systems/ts-services.git
